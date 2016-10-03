@@ -1,0 +1,8 @@
+Value Device_ID (Device ID|\S+)
+Value Local_Intf (\S+\s\w+|\S+)
+Value Hold_Time (Hold-time|\S+)
+Value Capability (\S+)
+Value Port_ID (Port ID|\S+)
+
+Start
+  ^${Device_ID}\s+${Local_Intf}\s+${Hold_Time}\s+${Capability}\s+${Port_ID} -> Record
