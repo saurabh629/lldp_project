@@ -1,1 +1,1 @@
-Scripts for lldp neighbor details
+Scripts for lldp neighbor details.
